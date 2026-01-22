@@ -1,0 +1,3650 @@
+[
+  {
+    "id": "subject_0023__step_008__107.000_114.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0000.jpg",
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0001.jpg",
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0002.jpg",
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0003.jpg",
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0004.jpg",
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0005.jpg",
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0006.jpg",
+      "frames/subject_0023/step_008/subject_0023__step_008__107.000_114.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0023",
+      "sheet": "Sheet1",
+      "row_index": 7,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_008",
+      "step_text": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+      "segment_path": "segments/subject_0023__step_008__107.000_114.000__9ecf08ba.mp4",
+      "start_sec": 107,
+      "end_sec": 114,
+      "duration_sec": 7,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0023",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0023"
+      },
+      "original_id": "subject_0023__step_008__107.000_114.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0020__step_008__176.000_183.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0000.jpg",
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0001.jpg",
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0002.jpg",
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0003.jpg",
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0004.jpg",
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0005.jpg",
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0006.jpg",
+      "frames/subject_0020/step_008/subject_0020__step_008__176.000_183.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上"
+      }
+    ],
+    "label": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+    "label_idx": 9,
+    "meta": {
+      "subject": "subject_0020",
+      "sheet": "Sheet1",
+      "row_index": 7,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_008",
+      "step_text": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+      "segment_path": "segments/subject_0020__step_008__176.000_183.000__9ecf08ba.mp4",
+      "start_sec": 176,
+      "end_sec": 183,
+      "duration_sec": 7,
+      "completed": "N",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0020",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0020"
+      },
+      "original_id": "subject_0020__step_008__176.000_183.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0005__step_006__99.000_115.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0000.jpg",
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0001.jpg",
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0002.jpg",
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0003.jpg",
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0004.jpg",
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0005.jpg",
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0006.jpg",
+      "frames/subject_0005/step_006/subject_0005__step_006__99.000_115.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内"
+      }
+    ],
+    "label": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+    "label_idx": 6,
+    "meta": {
+      "subject": "subject_0005",
+      "sheet": "Sheet1",
+      "row_index": 5,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_006",
+      "step_text": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+      "segment_path": "segments/subject_0005__step_006__99.000_115.000__4d54b5a4.mp4",
+      "start_sec": 99,
+      "end_sec": 115,
+      "duration_sec": 16,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0005",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0005"
+      },
+      "original_id": "subject_0005__step_006__99.000_115.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0035__step_011__138.000_144.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0000.jpg",
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0001.jpg",
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0002.jpg",
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0003.jpg",
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0004.jpg",
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0005.jpg",
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0006.jpg",
+      "frames/subject_0035/step_011/subject_0035__step_011__138.000_144.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "脱手术衣、手套"
+      }
+    ],
+    "label": "脱手术衣、手套",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0035",
+      "sheet": "Sheet1",
+      "row_index": 10,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_011",
+      "step_text": "考生自行解开腰带，嘱助手在背后解开衣结",
+      "segment_path": "segments/subject_0035__step_011__138.000_144.000__43e120be.mp4",
+      "start_sec": 138,
+      "end_sec": 144,
+      "duration_sec": 6,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0035",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0035"
+      },
+      "original_id": "subject_0035__step_011__138.000_144.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0036__step_002__29.000_32.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0000.jpg",
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0001.jpg",
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0002.jpg",
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0003.jpg",
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0004.jpg",
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0005.jpg",
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0006.jpg",
+      "frames/subject_0036/step_002/subject_0036__step_002__29.000_32.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0036",
+      "sheet": "Sheet1",
+      "row_index": 1,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_002",
+      "step_text": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+      "segment_path": "segments/subject_0036__step_002__29.000_32.000__37f7119f.mp4",
+      "start_sec": 29,
+      "end_sec": 32,
+      "duration_sec": 3,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0036",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0036"
+      },
+      "original_id": "subject_0036__step_002__29.000_32.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0039__step_001__21.000_35.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0000.jpg",
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0001.jpg",
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0002.jpg",
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0003.jpg",
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0004.jpg",
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0005.jpg",
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0006.jpg",
+      "frames/subject_0039/step_001/subject_0039__step_001__21.000_35.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0039",
+      "sheet": "Sheet1",
+      "row_index": 0,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_001",
+      "step_text": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+      "segment_path": "segments/subject_0039__step_001__21.000_35.000__ec88ecff.mp4",
+      "start_sec": 21,
+      "end_sec": 35,
+      "duration_sec": 14,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0039",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0039"
+      },
+      "original_id": "subject_0039__step_001__21.000_35.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0040__step_001__15.000_19.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0000.jpg",
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0001.jpg",
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0002.jpg",
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0003.jpg",
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0004.jpg",
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0005.jpg",
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0006.jpg",
+      "frames/subject_0040/step_001/subject_0040__step_001__15.000_19.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "拿起叠放着的手术衣，双手不能接触下面的手术衣"
+      }
+    ],
+    "label": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+    "label_idx": 8,
+    "meta": {
+      "subject": "subject_0040",
+      "sheet": "Sheet1",
+      "row_index": 0,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_001",
+      "step_text": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+      "segment_path": "segments/subject_0040__step_001__15.000_19.000__ec88ecff.mp4",
+      "start_sec": 15,
+      "end_sec": 19,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0040",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0040"
+      },
+      "original_id": "subject_0040__step_001__15.000_19.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0004__step_003__50.000_56.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0000.jpg",
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0001.jpg",
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0002.jpg",
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0003.jpg",
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0004.jpg",
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0005.jpg",
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0006.jpg",
+      "frames/subject_0004/step_003/subject_0004__step_003__50.000_56.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0004",
+      "sheet": "Sheet1",
+      "row_index": 2,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_003",
+      "step_text": "将手术衣略向上抛起，双手顺势向前上方同时插入袖筒",
+      "segment_path": "segments/subject_0004__step_003__50.000_56.000__c05942b0.mp4",
+      "start_sec": 50,
+      "end_sec": 56,
+      "duration_sec": 6,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0004",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0004"
+      },
+      "original_id": "subject_0004__step_003__50.000_56.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0014__step_010__109.000_118.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0000.jpg",
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0001.jpg",
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0002.jpg",
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0003.jpg",
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0004.jpg",
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0005.jpg",
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0006.jpg",
+      "frames/subject_0014/step_010/subject_0014__step_010__109.000_118.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间"
+      }
+    ],
+    "label": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+    "label_idx": 12,
+    "meta": {
+      "subject": "subject_0014",
+      "sheet": "Sheet1",
+      "row_index": 9,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_010",
+      "step_text": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+      "segment_path": "segments/subject_0014__step_010__109.000_118.000__378a7233.mp4",
+      "start_sec": 109,
+      "end_sec": 118,
+      "duration_sec": 9,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0014",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0014"
+      },
+      "original_id": "subject_0014__step_010__109.000_118.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0030__step_006__100.000_120.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0000.jpg",
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0001.jpg",
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0002.jpg",
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0003.jpg",
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0004.jpg",
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0005.jpg",
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0006.jpg",
+      "frames/subject_0030/step_006/subject_0030__step_006__100.000_120.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内"
+      }
+    ],
+    "label": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+    "label_idx": 6,
+    "meta": {
+      "subject": "subject_0030",
+      "sheet": "Sheet1",
+      "row_index": 5,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_006",
+      "step_text": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+      "segment_path": "segments/subject_0030__step_006__100.000_120.000__4d54b5a4.mp4",
+      "start_sec": 100,
+      "end_sec": 120,
+      "duration_sec": 20,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0030",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0030"
+      },
+      "original_id": "subject_0030__step_006__100.000_120.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0001__step_005__94.000_115.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0000.jpg",
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0001.jpg",
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0002.jpg",
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0003.jpg",
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0004.jpg",
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0005.jpg",
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0006.jpg",
+      "frames/subject_0001/step_005/subject_0001__step_005__94.000_115.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "左手自手套袋内捏住手套翻折部的内侧面，取出手套;确认手套方向后，右手插入右手手套内"
+      }
+    ],
+    "label": "左手自手套袋内捏住手套翻折部的内侧面，取出手套;确认手套方向后，右手插入右手手套内",
+    "label_idx": 5,
+    "meta": {
+      "subject": "subject_0001",
+      "sheet": "Sheet1",
+      "row_index": 4,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_005",
+      "step_text": "左手自手套袋内捏住手套翻折部的内侧面，取出手套;确认手套方向后，右手插入右手手套内",
+      "segment_path": "segments/subject_0001__step_005__94.000_115.000__a36b4dda.mp4",
+      "start_sec": 94,
+      "end_sec": 115,
+      "duration_sec": 21,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0001",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0001"
+      },
+      "original_id": "subject_0001__step_005__94.000_115.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0024__step_004__20.000_32.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0000.jpg",
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0001.jpg",
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0002.jpg",
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0003.jpg",
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0004.jpg",
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0005.jpg",
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0006.jpg",
+      "frames/subject_0024/step_004/subject_0024__step_004__20.000_32.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0024",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0024__step_004__20.000_32.000__f0afbbf7.mp4",
+      "start_sec": 20,
+      "end_sec": 32,
+      "duration_sec": 12,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0024",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0024"
+      },
+      "original_id": "subject_0024__step_004__20.000_32.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0012__step_001__36.000_40.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0000.jpg",
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0001.jpg",
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0002.jpg",
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0003.jpg",
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0004.jpg",
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0005.jpg",
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0006.jpg",
+      "frames/subject_0012/step_001/subject_0012__step_001__36.000_40.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "拿起叠放着的手术衣，双手不能接触下面的手术衣"
+      }
+    ],
+    "label": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+    "label_idx": 8,
+    "meta": {
+      "subject": "subject_0012",
+      "sheet": "Sheet1",
+      "row_index": 0,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_001",
+      "step_text": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+      "segment_path": "segments/subject_0012__step_001__36.000_40.000__ec88ecff.mp4",
+      "start_sec": 36,
+      "end_sec": 40,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0012",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0012"
+      },
+      "original_id": "subject_0012__step_001__36.000_40.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0026__step_012__225.000_227.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0000.jpg",
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0001.jpg",
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0002.jpg",
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0003.jpg",
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0004.jpg",
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0005.jpg",
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0006.jpg",
+      "frames/subject_0026/step_012/subject_0026__step_012__225.000_227.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部"
+      }
+    ],
+    "label": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0026",
+      "sheet": "Sheet1",
+      "row_index": 11,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_012",
+      "step_text": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+      "segment_path": "segments/subject_0026__step_012__225.000_227.000__61b3b76c.mp4",
+      "start_sec": 225,
+      "end_sec": 227,
+      "duration_sec": 2,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0026",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0026"
+      },
+      "original_id": "subject_0026__step_012__225.000_227.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0014__step_009__98.000_108.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0000.jpg",
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0001.jpg",
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0002.jpg",
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0003.jpg",
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0004.jpg",
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0005.jpg",
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0006.jpg",
+      "frames/subject_0014/step_009/subject_0014__step_009__98.000_108.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0014",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0014__step_009__98.000_108.000__47937f96.mp4",
+      "start_sec": 98,
+      "end_sec": 108,
+      "duration_sec": 10,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0014",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0014"
+      },
+      "original_id": "subject_0014__step_009__98.000_108.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0028__step_012__131.000_133.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0000.jpg",
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0001.jpg",
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0002.jpg",
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0003.jpg",
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0004.jpg",
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0005.jpg",
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0006.jpg",
+      "frames/subject_0028/step_012/subject_0028__step_012__131.000_133.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部"
+      }
+    ],
+    "label": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0028",
+      "sheet": "Sheet1",
+      "row_index": 11,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_012",
+      "step_text": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+      "segment_path": "segments/subject_0028__step_012__131.000_133.000__61b3b76c.mp4",
+      "start_sec": 131,
+      "end_sec": 133,
+      "duration_sec": 2,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0028",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0028"
+      },
+      "original_id": "subject_0028__step_012__131.000_133.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0014__step_007__84.000_87.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0000.jpg",
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0001.jpg",
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0002.jpg",
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0003.jpg",
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0004.jpg",
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0005.jpg",
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0006.jpg",
+      "frames/subject_0014/step_007/subject_0014__step_007__84.000_87.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0014",
+      "sheet": "Sheet1",
+      "row_index": 6,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_007",
+      "step_text": "将左手手套翻折部翻至手术衣袖口上",
+      "segment_path": "segments/subject_0014__step_007__84.000_87.000__f083816d.mp4",
+      "start_sec": 84,
+      "end_sec": 87,
+      "duration_sec": 3,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0014",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0014"
+      },
+      "original_id": "subject_0014__step_007__84.000_87.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0004__step_002__38.000_47.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0000.jpg",
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0001.jpg",
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0002.jpg",
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0003.jpg",
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0004.jpg",
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0005.jpg",
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0006.jpg",
+      "frames/subject_0004/step_002/subject_0004__step_002__38.000_47.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣"
+      }
+    ],
+    "label": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0004",
+      "sheet": "Sheet1",
+      "row_index": 1,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_002",
+      "step_text": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+      "segment_path": "segments/subject_0004__step_002__38.000_47.000__37f7119f.mp4",
+      "start_sec": 38,
+      "end_sec": 47,
+      "duration_sec": 9,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0004",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0004"
+      },
+      "original_id": "subject_0004__step_002__38.000_47.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0039__step_004__52.000_67.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0000.jpg",
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0001.jpg",
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0002.jpg",
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0003.jpg",
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0004.jpg",
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0005.jpg",
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0006.jpg",
+      "frames/subject_0039/step_004/subject_0039__step_004__52.000_67.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0039",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0039__step_004__52.000_67.000__f0afbbf7.mp4",
+      "start_sec": 52,
+      "end_sec": 67,
+      "duration_sec": 15,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0039",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0039"
+      },
+      "original_id": "subject_0039__step_004__52.000_67.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0013__step_011__165.000_178.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0000.jpg",
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0001.jpg",
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0002.jpg",
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0003.jpg",
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0004.jpg",
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0005.jpg",
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0006.jpg",
+      "frames/subject_0013/step_011/subject_0013__step_011__165.000_178.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "脱手术衣、手套"
+      }
+    ],
+    "label": "脱手术衣、手套",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0013",
+      "sheet": "Sheet1",
+      "row_index": 10,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_011",
+      "step_text": "考生自行解开腰带，嘱助手在背后解开衣结",
+      "segment_path": "segments/subject_0013__step_011__165.000_178.000__43e120be.mp4",
+      "start_sec": 165,
+      "end_sec": 178,
+      "duration_sec": 13,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0013",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0013"
+      },
+      "original_id": "subject_0013__step_011__165.000_178.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0022__step_010__128.000_138.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0000.jpg",
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0001.jpg",
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0002.jpg",
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0003.jpg",
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0004.jpg",
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0005.jpg",
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0006.jpg",
+      "frames/subject_0022/step_010/subject_0022__step_010__128.000_138.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间"
+      }
+    ],
+    "label": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+    "label_idx": 12,
+    "meta": {
+      "subject": "subject_0022",
+      "sheet": "Sheet1",
+      "row_index": 9,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_010",
+      "step_text": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+      "segment_path": "segments/subject_0022__step_010__128.000_138.000__378a7233.mp4",
+      "start_sec": 128,
+      "end_sec": 138,
+      "duration_sec": 10,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0022",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0022"
+      },
+      "original_id": "subject_0022__step_010__128.000_138.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0027__step_010__142.000_159.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0000.jpg",
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0001.jpg",
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0002.jpg",
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0003.jpg",
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0004.jpg",
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0005.jpg",
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0006.jpg",
+      "frames/subject_0027/step_010/subject_0027__step_010__142.000_159.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间"
+      }
+    ],
+    "label": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+    "label_idx": 12,
+    "meta": {
+      "subject": "subject_0027",
+      "sheet": "Sheet1",
+      "row_index": 9,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_010",
+      "step_text": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+      "segment_path": "segments/subject_0027__step_010__142.000_159.000__378a7233.mp4",
+      "start_sec": 142,
+      "end_sec": 159,
+      "duration_sec": 17,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0027",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0027"
+      },
+      "original_id": "subject_0027__step_010__142.000_159.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0017__step_006__102.000_124.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0000.jpg",
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0001.jpg",
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0002.jpg",
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0003.jpg",
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0004.jpg",
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0005.jpg",
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0006.jpg",
+      "frames/subject_0017/step_006/subject_0017__step_006__102.000_124.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0017",
+      "sheet": "Sheet1",
+      "row_index": 5,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_006",
+      "step_text": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+      "segment_path": "segments/subject_0017__step_006__102.000_124.000__4d54b5a4.mp4",
+      "start_sec": 102,
+      "end_sec": 124,
+      "duration_sec": 22,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0017",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0017"
+      },
+      "original_id": "subject_0017__step_006__102.000_124.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0024__step_011__145.000_156.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0000.jpg",
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0001.jpg",
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0002.jpg",
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0003.jpg",
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0004.jpg",
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0005.jpg",
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0006.jpg",
+      "frames/subject_0024/step_011/subject_0024__step_011__145.000_156.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "考生自行解开腰带，嘱助手在背后解开衣结"
+      }
+    ],
+    "label": "考生自行解开腰带，嘱助手在背后解开衣结",
+    "label_idx": 11,
+    "meta": {
+      "subject": "subject_0024",
+      "sheet": "Sheet1",
+      "row_index": 10,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_011",
+      "step_text": "考生自行解开腰带，嘱助手在背后解开衣结",
+      "segment_path": "segments/subject_0024__step_011__145.000_156.000__43e120be.mp4",
+      "start_sec": 145,
+      "end_sec": 156,
+      "duration_sec": 11,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0024",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0024"
+      },
+      "original_id": "subject_0024__step_011__145.000_156.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0042__step_011__173.000_185.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0000.jpg",
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0001.jpg",
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0002.jpg",
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0003.jpg",
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0004.jpg",
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0005.jpg",
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0006.jpg",
+      "frames/subject_0042/step_011/subject_0042__step_011__173.000_185.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "脱手术衣、手套"
+      }
+    ],
+    "label": "脱手术衣、手套",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0042",
+      "sheet": "Sheet1",
+      "row_index": 10,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_011",
+      "step_text": "考生自行解开腰带，嘱助手在背后解开衣结",
+      "segment_path": "segments/subject_0042__step_011__173.000_185.000__43e120be.mp4",
+      "start_sec": 173,
+      "end_sec": 185,
+      "duration_sec": 12,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0042",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0042"
+      },
+      "original_id": "subject_0042__step_011__173.000_185.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0003__step_003__29.000_37.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0000.jpg",
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0001.jpg",
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0002.jpg",
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0003.jpg",
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0004.jpg",
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0005.jpg",
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0006.jpg",
+      "frames/subject_0003/step_003/subject_0003__step_003__29.000_37.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0003",
+      "sheet": "Sheet1",
+      "row_index": 2,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_003",
+      "step_text": "将手术衣略向上抛起，双手顺势向前上方同时插入袖筒",
+      "segment_path": "segments/subject_0003__step_003__29.000_37.000__c05942b0.mp4",
+      "start_sec": 29,
+      "end_sec": 37,
+      "duration_sec": 8,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0003",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0003"
+      },
+      "original_id": "subject_0003__step_003__29.000_37.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0031__step_004__46.000_56.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0000.jpg",
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0001.jpg",
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0002.jpg",
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0003.jpg",
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0004.jpg",
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0005.jpg",
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0006.jpg",
+      "frames/subject_0031/step_004/subject_0031__step_004__46.000_56.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "助手在身后协助穿手术衣，使双手伸出袖口"
+      }
+    ],
+    "label": "助手在身后协助穿手术衣，使双手伸出袖口",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0031",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0031__step_004__46.000_56.000__f0afbbf7.mp4",
+      "start_sec": 46,
+      "end_sec": 56,
+      "duration_sec": 10,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0031",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0031"
+      },
+      "original_id": "subject_0031__step_004__46.000_56.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0029__step_004__58.000_70.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0000.jpg",
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0001.jpg",
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0002.jpg",
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0003.jpg",
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0004.jpg",
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0005.jpg",
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0006.jpg",
+      "frames/subject_0029/step_004/subject_0029__step_004__58.000_70.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0029",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0029__step_004__58.000_70.000__f0afbbf7.mp4",
+      "start_sec": 58,
+      "end_sec": 70,
+      "duration_sec": 12,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0029",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0029"
+      },
+      "original_id": "subject_0029__step_004__58.000_70.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0031__step_008__105.000_107.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0000.jpg",
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0001.jpg",
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0002.jpg",
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0003.jpg",
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0004.jpg",
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0005.jpg",
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0006.jpg",
+      "frames/subject_0031/step_008/subject_0031__step_008__105.000_107.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0031",
+      "sheet": "Sheet1",
+      "row_index": 7,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_008",
+      "step_text": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+      "segment_path": "segments/subject_0031__step_008__105.000_107.000__9ecf08ba.mp4",
+      "start_sec": 105,
+      "end_sec": 107,
+      "duration_sec": 2,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0031",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0031"
+      },
+      "original_id": "subject_0031__step_008__105.000_107.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0011__step_008__179.000_188.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0000.jpg",
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0001.jpg",
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0002.jpg",
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0003.jpg",
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0004.jpg",
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0005.jpg",
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0006.jpg",
+      "frames/subject_0011/step_008/subject_0011__step_008__179.000_188.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上"
+      }
+    ],
+    "label": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+    "label_idx": 9,
+    "meta": {
+      "subject": "subject_0011",
+      "sheet": "Sheet1",
+      "row_index": 7,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_008",
+      "step_text": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+      "segment_path": "segments/subject_0011__step_008__179.000_188.000__9ecf08ba.mp4",
+      "start_sec": 179,
+      "end_sec": 188,
+      "duration_sec": 9,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0011",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0011"
+      },
+      "original_id": "subject_0011__step_008__179.000_188.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0037__step_002__21.000_26.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0000.jpg",
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0001.jpg",
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0002.jpg",
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0003.jpg",
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0004.jpg",
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0005.jpg",
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0006.jpg",
+      "frames/subject_0037/step_002/subject_0037__step_002__21.000_26.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0037",
+      "sheet": "Sheet1",
+      "row_index": 1,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_002",
+      "step_text": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+      "segment_path": "segments/subject_0037__step_002__21.000_26.000__37f7119f.mp4",
+      "start_sec": 21,
+      "end_sec": 26,
+      "duration_sec": 5,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0037",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0037"
+      },
+      "original_id": "subject_0037__step_002__21.000_26.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0012__step_011__205.000_226.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0000.jpg",
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0001.jpg",
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0002.jpg",
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0003.jpg",
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0004.jpg",
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0005.jpg",
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0006.jpg",
+      "frames/subject_0012/step_011/subject_0012__step_011__205.000_226.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "考生自行解开腰带，嘱助手在背后解开衣结"
+      }
+    ],
+    "label": "考生自行解开腰带，嘱助手在背后解开衣结",
+    "label_idx": 11,
+    "meta": {
+      "subject": "subject_0012",
+      "sheet": "Sheet1",
+      "row_index": 10,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_011",
+      "step_text": "考生自行解开腰带，嘱助手在背后解开衣结",
+      "segment_path": "segments/subject_0012__step_011__205.000_226.000__43e120be.mp4",
+      "start_sec": 205,
+      "end_sec": 226,
+      "duration_sec": 21,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0012",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0012"
+      },
+      "original_id": "subject_0012__step_011__205.000_226.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0005__step_007__83.000_87.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0000.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0001.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0002.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0003.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0004.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0005.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0006.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "将左手手套翻折部翻至手术衣袖口上"
+      }
+    ],
+    "label": "将左手手套翻折部翻至手术衣袖口上",
+    "label_idx": 3,
+    "meta": {
+      "subject": "subject_0005",
+      "sheet": "Sheet1",
+      "row_index": 6,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_007",
+      "step_text": "将左手手套翻折部翻至手术衣袖口上",
+      "segment_path": "segments/subject_0005__step_007__83.000_87.000__f083816d.mp4",
+      "start_sec": 83,
+      "end_sec": 87,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0005",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0005"
+      },
+      "original_id": "subject_0005__step_007__83.000_87.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0032__step_010__190.000_227.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0000.jpg",
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0001.jpg",
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0002.jpg",
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0003.jpg",
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0004.jpg",
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0005.jpg",
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0006.jpg",
+      "frames/subject_0032/step_010/subject_0032__step_010__190.000_227.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间"
+      }
+    ],
+    "label": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+    "label_idx": 12,
+    "meta": {
+      "subject": "subject_0032",
+      "sheet": "Sheet1",
+      "row_index": 9,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_010",
+      "step_text": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+      "segment_path": "segments/subject_0032__step_010__190.000_227.000__378a7233.mp4",
+      "start_sec": 190,
+      "end_sec": 227,
+      "duration_sec": 37,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0032",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0032"
+      },
+      "original_id": "subject_0032__step_010__190.000_227.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0011__step_004__86.000_116.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0000.jpg",
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0001.jpg",
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0002.jpg",
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0003.jpg",
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0004.jpg",
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0005.jpg",
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0006.jpg",
+      "frames/subject_0011/step_004/subject_0011__step_004__86.000_116.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0011",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0011__step_004__86.000_116.000__f0afbbf7.mp4",
+      "start_sec": 86,
+      "end_sec": 116,
+      "duration_sec": 30,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0011",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0011"
+      },
+      "original_id": "subject_0011__step_004__86.000_116.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0013__step_002__49.000_54.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0000.jpg",
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0001.jpg",
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0002.jpg",
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0003.jpg",
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0004.jpg",
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0005.jpg",
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0006.jpg",
+      "frames/subject_0013/step_002/subject_0013__step_002__49.000_54.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣"
+      }
+    ],
+    "label": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0013",
+      "sheet": "Sheet1",
+      "row_index": 1,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_002",
+      "step_text": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+      "segment_path": "segments/subject_0013__step_002__49.000_54.000__37f7119f.mp4",
+      "start_sec": 49,
+      "end_sec": 54,
+      "duration_sec": 5,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0013",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0013"
+      },
+      "original_id": "subject_0013__step_002__49.000_54.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0023__step_001__16.000_20.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0000.jpg",
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0001.jpg",
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0002.jpg",
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0003.jpg",
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0004.jpg",
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0005.jpg",
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0006.jpg",
+      "frames/subject_0023/step_001/subject_0023__step_001__16.000_20.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0023",
+      "sheet": "Sheet1",
+      "row_index": 0,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_001",
+      "step_text": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+      "segment_path": "segments/subject_0023__step_001__16.000_20.000__ec88ecff.mp4",
+      "start_sec": 16,
+      "end_sec": 20,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0023",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0023"
+      },
+      "original_id": "subject_0023__step_001__16.000_20.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0042__step_009__142.000_152.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0000.jpg",
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0001.jpg",
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0002.jpg",
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0003.jpg",
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0004.jpg",
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0005.jpg",
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0006.jpg",
+      "frames/subject_0042/step_009/subject_0042__step_009__142.000_152.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0042",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0042__step_009__142.000_152.000__47937f96.mp4",
+      "start_sec": 142,
+      "end_sec": 152,
+      "duration_sec": 10,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0042",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0042"
+      },
+      "original_id": "subject_0042__step_009__142.000_152.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0038__step_012__267.000_271.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0000.jpg",
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0001.jpg",
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0002.jpg",
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0003.jpg",
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0004.jpg",
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0005.jpg",
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0006.jpg",
+      "frames/subject_0038/step_012/subject_0038__step_012__267.000_271.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "脱手术衣、手套"
+      }
+    ],
+    "label": "脱手术衣、手套",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0038",
+      "sheet": "Sheet1",
+      "row_index": 11,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_012",
+      "step_text": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+      "segment_path": "segments/subject_0038__step_012__267.000_271.000__61b3b76c.mp4",
+      "start_sec": 267,
+      "end_sec": 271,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0038",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0038"
+      },
+      "original_id": "subject_0038__step_012__267.000_271.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0034__step_009__112.000_119.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0000.jpg",
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0001.jpg",
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0002.jpg",
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0003.jpg",
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0004.jpg",
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0005.jpg",
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0006.jpg",
+      "frames/subject_0034/step_009/subject_0034__step_009__112.000_119.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手"
+      }
+    ],
+    "label": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+    "label_idx": 7,
+    "meta": {
+      "subject": "subject_0034",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0034__step_009__112.000_119.000__47937f96.mp4",
+      "start_sec": 112,
+      "end_sec": 119,
+      "duration_sec": 7,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0034",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0034"
+      },
+      "original_id": "subject_0034__step_009__112.000_119.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0005__step_007__83.000_87.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0000.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0001.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0002.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0003.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0004.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0005.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0006.jpg",
+      "frames/subject_0005/step_007/subject_0005__step_007__83.000_87.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0005",
+      "sheet": "Sheet1",
+      "row_index": 6,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_007",
+      "step_text": "将左手手套翻折部翻至手术衣袖口上",
+      "segment_path": "segments/subject_0005__step_007__83.000_87.000__f083816d.mp4",
+      "start_sec": 83,
+      "end_sec": 87,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0005",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0005"
+      },
+      "original_id": "subject_0005__step_007__83.000_87.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0010__step_012__157.000_160.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0000.jpg",
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0001.jpg",
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0002.jpg",
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0003.jpg",
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0004.jpg",
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0005.jpg",
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0006.jpg",
+      "frames/subject_0010/step_012/subject_0010__step_012__157.000_160.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "脱手术衣、手套"
+      }
+    ],
+    "label": "脱手术衣、手套",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0010",
+      "sheet": "Sheet1",
+      "row_index": 11,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_012",
+      "step_text": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+      "segment_path": "segments/subject_0010__step_012__157.000_160.000__61b3b76c.mp4",
+      "start_sec": 157,
+      "end_sec": 160,
+      "duration_sec": 3,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0010",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0010"
+      },
+      "original_id": "subject_0010__step_012__157.000_160.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0029__step_006__108.000_116.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0000.jpg",
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0001.jpg",
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0002.jpg",
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0003.jpg",
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0004.jpg",
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0005.jpg",
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0006.jpg",
+      "frames/subject_0029/step_006/subject_0029__step_006__108.000_116.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内"
+      }
+    ],
+    "label": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+    "label_idx": 6,
+    "meta": {
+      "subject": "subject_0029",
+      "sheet": "Sheet1",
+      "row_index": 5,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_006",
+      "step_text": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+      "segment_path": "segments/subject_0029__step_006__108.000_116.000__4d54b5a4.mp4",
+      "start_sec": 108,
+      "end_sec": 116,
+      "duration_sec": 8,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0029",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0029"
+      },
+      "original_id": "subject_0029__step_006__108.000_116.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0038__step_002__43.000_52.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0000.jpg",
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0001.jpg",
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0002.jpg",
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0003.jpg",
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0004.jpg",
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0005.jpg",
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0006.jpg",
+      "frames/subject_0038/step_002/subject_0038__step_002__43.000_52.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣"
+      }
+    ],
+    "label": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0038",
+      "sheet": "Sheet1",
+      "row_index": 1,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_002",
+      "step_text": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+      "segment_path": "segments/subject_0038__step_002__43.000_52.000__37f7119f.mp4",
+      "start_sec": 43,
+      "end_sec": 52,
+      "duration_sec": 9,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0038",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0038"
+      },
+      "original_id": "subject_0038__step_002__43.000_52.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0026__step_010__176.000_194.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0000.jpg",
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0001.jpg",
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0002.jpg",
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0003.jpg",
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0004.jpg",
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0005.jpg",
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0006.jpg",
+      "frames/subject_0026/step_010/subject_0026__step_010__176.000_194.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间"
+      }
+    ],
+    "label": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+    "label_idx": 12,
+    "meta": {
+      "subject": "subject_0026",
+      "sheet": "Sheet1",
+      "row_index": 9,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_010",
+      "step_text": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+      "segment_path": "segments/subject_0026__step_010__176.000_194.000__378a7233.mp4",
+      "start_sec": 176,
+      "end_sec": 194,
+      "duration_sec": 18,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0026",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0026"
+      },
+      "original_id": "subject_0026__step_010__176.000_194.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0030__step_012__171.000_177.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0000.jpg",
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0001.jpg",
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0002.jpg",
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0003.jpg",
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0004.jpg",
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0005.jpg",
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0006.jpg",
+      "frames/subject_0030/step_012/subject_0030__step_012__171.000_177.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部"
+      }
+    ],
+    "label": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0030",
+      "sheet": "Sheet1",
+      "row_index": 11,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_012",
+      "step_text": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+      "segment_path": "segments/subject_0030__step_012__171.000_177.000__61b3b76c.mp4",
+      "start_sec": 171,
+      "end_sec": 177,
+      "duration_sec": 6,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0030",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0030"
+      },
+      "original_id": "subject_0030__step_012__171.000_177.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0034__step_008__92.000_100.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0000.jpg",
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0001.jpg",
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0002.jpg",
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0003.jpg",
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0004.jpg",
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0005.jpg",
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0006.jpg",
+      "frames/subject_0034/step_008/subject_0034__step_008__92.000_100.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上"
+      }
+    ],
+    "label": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+    "label_idx": 9,
+    "meta": {
+      "subject": "subject_0034",
+      "sheet": "Sheet1",
+      "row_index": 7,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_008",
+      "step_text": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+      "segment_path": "segments/subject_0034__step_008__92.000_100.000__9ecf08ba.mp4",
+      "start_sec": 92,
+      "end_sec": 100,
+      "duration_sec": 8,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0034",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0034"
+      },
+      "original_id": "subject_0034__step_008__92.000_100.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0014__step_012__131.000_136.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0000.jpg",
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0001.jpg",
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0002.jpg",
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0003.jpg",
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0004.jpg",
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0005.jpg",
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0006.jpg",
+      "frames/subject_0014/step_012/subject_0014__step_012__131.000_136.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部"
+      }
+    ],
+    "label": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0014",
+      "sheet": "Sheet1",
+      "row_index": 11,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_012",
+      "step_text": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+      "segment_path": "segments/subject_0014__step_012__131.000_136.000__61b3b76c.mp4",
+      "start_sec": 131,
+      "end_sec": 136,
+      "duration_sec": 5,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0014",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0014"
+      },
+      "original_id": "subject_0014__step_012__131.000_136.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0003__step_006__80.000_88.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0000.jpg",
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0001.jpg",
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0002.jpg",
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0003.jpg",
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0004.jpg",
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0005.jpg",
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0006.jpg",
+      "frames/subject_0003/step_006/subject_0003__step_006__80.000_88.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0003",
+      "sheet": "Sheet1",
+      "row_index": 5,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_006",
+      "step_text": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+      "segment_path": "segments/subject_0003__step_006__80.000_88.000__4d54b5a4.mp4",
+      "start_sec": 80,
+      "end_sec": 88,
+      "duration_sec": 8,
+      "completed": "N",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0003",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0003"
+      },
+      "original_id": "subject_0003__step_006__80.000_88.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0039__step_007__143.000_150.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0000.jpg",
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0001.jpg",
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0002.jpg",
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0003.jpg",
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0004.jpg",
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0005.jpg",
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0006.jpg",
+      "frames/subject_0039/step_007/subject_0039__step_007__143.000_150.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "将左手手套翻折部翻至手术衣袖口上"
+      }
+    ],
+    "label": "将左手手套翻折部翻至手术衣袖口上",
+    "label_idx": 3,
+    "meta": {
+      "subject": "subject_0039",
+      "sheet": "Sheet1",
+      "row_index": 6,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_007",
+      "step_text": "将左手手套翻折部翻至手术衣袖口上",
+      "segment_path": "segments/subject_0039__step_007__143.000_150.000__f083816d.mp4",
+      "start_sec": 143,
+      "end_sec": 150,
+      "duration_sec": 7,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0039",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0039"
+      },
+      "original_id": "subject_0039__step_007__143.000_150.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0005__step_013__187.000_202.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0000.jpg",
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0001.jpg",
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0002.jpg",
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0003.jpg",
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0004.jpg",
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0005.jpg",
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0006.jpg",
+      "frames/subject_0005/step_013/subject_0005__step_013__187.000_202.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "脱手术衣、手套"
+      }
+    ],
+    "label": "脱手术衣、手套",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0005",
+      "sheet": "Sheet1",
+      "row_index": 12,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_013",
+      "step_text": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套",
+      "segment_path": "segments/subject_0005__step_013__187.000_202.000__dd4f8674.mp4",
+      "start_sec": 187,
+      "end_sec": 202,
+      "duration_sec": 15,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0005",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0005"
+      },
+      "original_id": "subject_0005__step_013__187.000_202.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0017__step_007__125.000_129.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0000.jpg",
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0001.jpg",
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0002.jpg",
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0003.jpg",
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0004.jpg",
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0005.jpg",
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0006.jpg",
+      "frames/subject_0017/step_007/subject_0017__step_007__125.000_129.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0017",
+      "sheet": "Sheet1",
+      "row_index": 6,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_007",
+      "step_text": "将左手手套翻折部翻至手术衣袖口上",
+      "segment_path": "segments/subject_0017__step_007__125.000_129.000__f083816d.mp4",
+      "start_sec": 125,
+      "end_sec": 129,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0017",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0017"
+      },
+      "original_id": "subject_0017__step_007__125.000_129.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0014__step_008__88.000_97.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0000.jpg",
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0001.jpg",
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0002.jpg",
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0003.jpg",
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0004.jpg",
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0005.jpg",
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0006.jpg",
+      "frames/subject_0014/step_008/subject_0014__step_008__88.000_97.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0014",
+      "sheet": "Sheet1",
+      "row_index": 7,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_008",
+      "step_text": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+      "segment_path": "segments/subject_0014__step_008__88.000_97.000__9ecf08ba.mp4",
+      "start_sec": 88,
+      "end_sec": 97,
+      "duration_sec": 9,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0014",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0014"
+      },
+      "original_id": "subject_0014__step_008__88.000_97.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0005__step_001__23.000_33.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0000.jpg",
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0001.jpg",
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0002.jpg",
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0003.jpg",
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0004.jpg",
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0005.jpg",
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0006.jpg",
+      "frames/subject_0005/step_001/subject_0005__step_001__23.000_33.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0005",
+      "sheet": "Sheet1",
+      "row_index": 0,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_001",
+      "step_text": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+      "segment_path": "segments/subject_0005__step_001__23.000_33.000__ec88ecff.mp4",
+      "start_sec": 23,
+      "end_sec": 33,
+      "duration_sec": 10,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0005",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0005"
+      },
+      "original_id": "subject_0005__step_001__23.000_33.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0024__step_013__163.000_172.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0000.jpg",
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0001.jpg",
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0002.jpg",
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0003.jpg",
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0004.jpg",
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0005.jpg",
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0006.jpg",
+      "frames/subject_0024/step_013/subject_0024__step_013__163.000_172.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "脱手术衣、手套"
+      }
+    ],
+    "label": "脱手术衣、手套",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0024",
+      "sheet": "Sheet1",
+      "row_index": 12,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_013",
+      "step_text": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套",
+      "segment_path": "segments/subject_0024__step_013__163.000_172.000__dd4f8674.mp4",
+      "start_sec": 163,
+      "end_sec": 172,
+      "duration_sec": 9,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0024",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0024"
+      },
+      "original_id": "subject_0024__step_013__163.000_172.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0027__step_004__59.000_67.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0000.jpg",
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0001.jpg",
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0002.jpg",
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0003.jpg",
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0004.jpg",
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0005.jpg",
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0006.jpg",
+      "frames/subject_0027/step_004/subject_0027__step_004__59.000_67.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0027",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0027__step_004__59.000_67.000__f0afbbf7.mp4",
+      "start_sec": 59,
+      "end_sec": 67,
+      "duration_sec": 8,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0027",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0027"
+      },
+      "original_id": "subject_0027__step_004__59.000_67.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0012__step_012__228.000_231.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0000.jpg",
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0001.jpg",
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0002.jpg",
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0003.jpg",
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0004.jpg",
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0005.jpg",
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0006.jpg",
+      "frames/subject_0012/step_012/subject_0012__step_012__228.000_231.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部"
+      }
+    ],
+    "label": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+    "label_idx": 2,
+    "meta": {
+      "subject": "subject_0012",
+      "sheet": "Sheet1",
+      "row_index": 11,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_012",
+      "step_text": "嘱助手面对考生，拉住考生衣领，向前翻转拉下手术衣，使双手手套腕部套筒的内侧面翻转于手腕部",
+      "segment_path": "segments/subject_0012__step_012__228.000_231.000__61b3b76c.mp4",
+      "start_sec": 228,
+      "end_sec": 231,
+      "duration_sec": 3,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0012",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0012"
+      },
+      "original_id": "subject_0012__step_012__228.000_231.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0022__step_005__76.000_91.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0000.jpg",
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0001.jpg",
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0002.jpg",
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0003.jpg",
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0004.jpg",
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0005.jpg",
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0006.jpg",
+      "frames/subject_0022/step_005/subject_0022__step_005__76.000_91.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0022",
+      "sheet": "Sheet1",
+      "row_index": 4,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_005",
+      "step_text": "左手自手套袋内捏住手套翻折部的内侧面，取出手套;确认手套方向后，右手插入右手手套内",
+      "segment_path": "segments/subject_0022__step_005__76.000_91.000__a36b4dda.mp4",
+      "start_sec": 76,
+      "end_sec": 91,
+      "duration_sec": 15,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0022",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0022"
+      },
+      "original_id": "subject_0022__step_005__76.000_91.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0012__step_008__168.000_175.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0000.jpg",
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0001.jpg",
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0002.jpg",
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0003.jpg",
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0004.jpg",
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0005.jpg",
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0006.jpg",
+      "frames/subject_0012/step_008/subject_0012__step_008__168.000_175.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0012",
+      "sheet": "Sheet1",
+      "row_index": 7,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_008",
+      "step_text": "用戴好手套的左手四指插入右手手套的翻折部内侧面，将翻折部翻至右手手术衣袖口上",
+      "segment_path": "segments/subject_0012__step_008__168.000_175.000__9ecf08ba.mp4",
+      "start_sec": 168,
+      "end_sec": 175,
+      "duration_sec": 7,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0012",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0012"
+      },
+      "original_id": "subject_0012__step_008__168.000_175.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0004__step_009__139.000_146.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0000.jpg",
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0001.jpg",
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0002.jpg",
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0003.jpg",
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0004.jpg",
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0005.jpg",
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0006.jpg",
+      "frames/subject_0004/step_009/subject_0004__step_009__139.000_146.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手"
+      }
+    ],
+    "label": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+    "label_idx": 7,
+    "meta": {
+      "subject": "subject_0004",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0004__step_009__139.000_146.000__47937f96.mp4",
+      "start_sec": 139,
+      "end_sec": 146,
+      "duration_sec": 7,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0004",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0004"
+      },
+      "original_id": "subject_0004__step_009__139.000_146.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0010__step_011__142.000_155.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0000.jpg",
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0001.jpg",
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0002.jpg",
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0003.jpg",
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0004.jpg",
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0005.jpg",
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0006.jpg",
+      "frames/subject_0010/step_011/subject_0010__step_011__142.000_155.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "考生自行解开腰带，嘱助手在背后解开衣结"
+      }
+    ],
+    "label": "考生自行解开腰带，嘱助手在背后解开衣结",
+    "label_idx": 11,
+    "meta": {
+      "subject": "subject_0010",
+      "sheet": "Sheet1",
+      "row_index": 10,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_011",
+      "step_text": "考生自行解开腰带，嘱助手在背后解开衣结",
+      "segment_path": "segments/subject_0010__step_011__142.000_155.000__43e120be.mp4",
+      "start_sec": 142,
+      "end_sec": 155,
+      "duration_sec": 13,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0010",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0010"
+      },
+      "original_id": "subject_0010__step_011__142.000_155.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0035__step_006__79.000_80.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0000.jpg",
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0001.jpg",
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0002.jpg",
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0003.jpg",
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0004.jpg",
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0005.jpg",
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0006.jpg",
+      "frames/subject_0035/step_006/subject_0035__step_006__79.000_80.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0035",
+      "sheet": "Sheet1",
+      "row_index": 5,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_006",
+      "step_text": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+      "segment_path": "segments/subject_0035__step_006__79.000_80.000__4d54b5a4.mp4",
+      "start_sec": 79,
+      "end_sec": 80,
+      "duration_sec": 1,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0035",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0035"
+      },
+      "original_id": "subject_0035__step_006__79.000_80.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0035__step_001__26.000_28.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0000.jpg",
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0001.jpg",
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0002.jpg",
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0003.jpg",
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0004.jpg",
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0005.jpg",
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0006.jpg",
+      "frames/subject_0035/step_001/subject_0035__step_001__26.000_28.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "拿起叠放着的手术衣，双手不能接触下面的手术衣"
+      }
+    ],
+    "label": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+    "label_idx": 8,
+    "meta": {
+      "subject": "subject_0035",
+      "sheet": "Sheet1",
+      "row_index": 0,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_001",
+      "step_text": "拿起叠放着的手术衣，双手不能接触下面的手术衣",
+      "segment_path": "segments/subject_0035__step_001__26.000_28.000__ec88ecff.mp4",
+      "start_sec": 26,
+      "end_sec": 28,
+      "duration_sec": 2,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0035",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0035"
+      },
+      "original_id": "subject_0035__step_001__26.000_28.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0020__step_009__185.000_195.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0000.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0001.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0002.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0003.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0004.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0005.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0006.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0020",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0020__step_009__185.000_195.000__47937f96.mp4",
+      "start_sec": 185,
+      "end_sec": 195,
+      "duration_sec": 10,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0020",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0020"
+      },
+      "original_id": "subject_0020__step_009__185.000_195.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0001__step_013__226.000_232.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0000.jpg",
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0001.jpg",
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0002.jpg",
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0003.jpg",
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0004.jpg",
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0005.jpg",
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0006.jpg",
+      "frames/subject_0001/step_013/subject_0001__step_013__226.000_232.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套"
+      }
+    ],
+    "label": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套",
+    "label_idx": 10,
+    "meta": {
+      "subject": "subject_0001",
+      "sheet": "Sheet1",
+      "row_index": 12,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_013",
+      "step_text": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套",
+      "segment_path": "segments/subject_0001__step_013__226.000_232.000__dd4f8674.mp4",
+      "start_sec": 226,
+      "end_sec": 232,
+      "duration_sec": 6,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0001",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0001"
+      },
+      "original_id": "subject_0001__step_013__226.000_232.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0034__step_004__29.000_32.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0000.jpg",
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0001.jpg",
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0002.jpg",
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0003.jpg",
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0004.jpg",
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0005.jpg",
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0006.jpg",
+      "frames/subject_0034/step_004/subject_0034__step_004__29.000_32.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0034",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0034__step_004__29.000_32.000__f0afbbf7.mp4",
+      "start_sec": 29,
+      "end_sec": 32,
+      "duration_sec": 3,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0034",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0034"
+      },
+      "original_id": "subject_0034__step_004__29.000_32.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0028__step_005__76.000_83.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0000.jpg",
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0001.jpg",
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0002.jpg",
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0003.jpg",
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0004.jpg",
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0005.jpg",
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0006.jpg",
+      "frames/subject_0028/step_005/subject_0028__step_005__76.000_83.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0028",
+      "sheet": "Sheet1",
+      "row_index": 4,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_005",
+      "step_text": "左手自手套袋内捏住手套翻折部的内侧面，取出手套;确认手套方向后，右手插入右手手套内",
+      "segment_path": "segments/subject_0028__step_005__76.000_83.000__a36b4dda.mp4",
+      "start_sec": 76,
+      "end_sec": 83,
+      "duration_sec": 7,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0028",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0028"
+      },
+      "original_id": "subject_0028__step_005__76.000_83.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0020__step_009__185.000_195.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0000.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0001.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0002.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0003.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0004.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0005.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0006.jpg",
+      "frames/subject_0020/step_009/subject_0020__step_009__185.000_195.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，判断当前处于哪个操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手"
+      }
+    ],
+    "label": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+    "label_idx": 7,
+    "meta": {
+      "subject": "subject_0020",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0020__step_009__185.000_195.000__47937f96.mp4",
+      "start_sec": 185,
+      "end_sec": 195,
+      "duration_sec": 10,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0020",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0020"
+      },
+      "original_id": "subject_0020__step_009__185.000_195.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0024__step_010__126.000_142.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0000.jpg",
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0001.jpg",
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0002.jpg",
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0003.jpg",
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0004.jpg",
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0005.jpg",
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0006.jpg",
+      "frames/subject_0024/step_010/subject_0024__step_010__126.000_142.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间"
+      }
+    ],
+    "label": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+    "label_idx": 12,
+    "meta": {
+      "subject": "subject_0024",
+      "sheet": "Sheet1",
+      "row_index": 9,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_010",
+      "step_text": "请助手用无菌钳夹住，考生转身一周，接住助手夹持的腰带，自行打结在腰间",
+      "segment_path": "segments/subject_0024__step_010__126.000_142.000__378a7233.mp4",
+      "start_sec": 126,
+      "end_sec": 142,
+      "duration_sec": 16,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0024",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0024"
+      },
+      "original_id": "subject_0024__step_010__126.000_142.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0021__step_014__37.000_41.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0000.jpg",
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0001.jpg",
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0002.jpg",
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0003.jpg",
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0004.jpg",
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0005.jpg",
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0006.jpg",
+      "frames/subject_0021/step_014/subject_0021__step_014__37.000_41.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣"
+      }
+    ],
+    "label": "双手分别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0021",
+      "sheet": "Sheet1",
+      "row_index": 1,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_014",
+      "step_text": "双手:别提起手术衣的衣领两端，有腰带的一面向外，抖开手术衣",
+      "segment_path": "segments/subject_0021__step_014__37.000_41.000__9f59be05.mp4",
+      "start_sec": 37,
+      "end_sec": 41,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0021",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0021"
+      },
+      "original_id": "subject_0021__step_014__37.000_41.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0038__step_013__271.000_283.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0000.jpg",
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0001.jpg",
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0002.jpg",
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0003.jpg",
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0004.jpg",
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0005.jpg",
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0006.jpg",
+      "frames/subject_0038/step_013/subject_0038__step_013__271.000_283.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套"
+      }
+    ],
+    "label": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套",
+    "label_idx": 10,
+    "meta": {
+      "subject": "subject_0038",
+      "sheet": "Sheet1",
+      "row_index": 12,
+      "stage_id": "stage_03",
+      "stage_text": "脱手术衣、手套",
+      "step_id": "step_013",
+      "step_text": "考生一只手插入另一只手套的翻转部，脱下手套；已脱掉手套的手捏住另一手套接触皮肤侧，脱下第2只手套",
+      "segment_path": "segments/subject_0038__step_013__271.000_283.000__dd4f8674.mp4",
+      "start_sec": 271,
+      "end_sec": 283,
+      "duration_sec": 12,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0038",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0038"
+      },
+      "original_id": "subject_0038__step_013__271.000_283.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0023__step_006__74.000_85.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0000.jpg",
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0001.jpg",
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0002.jpg",
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0003.jpg",
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0004.jpg",
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0005.jpg",
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0006.jpg",
+      "frames/subject_0023/step_006/subject_0023__step_006__74.000_85.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，判断当前属于哪个手术阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0023",
+      "sheet": "Sheet1",
+      "row_index": 5,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_006",
+      "step_text": "已戴手套的右手四指(除拇指外)插入左手手套翻折部的外侧面，左手插入手套内",
+      "segment_path": "segments/subject_0023__step_006__74.000_85.000__4d54b5a4.mp4",
+      "start_sec": 74,
+      "end_sec": 85,
+      "duration_sec": 11,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0023",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0023"
+      },
+      "original_id": "subject_0023__step_006__74.000_85.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0025__step_004__37.000_48.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0000.jpg",
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0001.jpg",
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0002.jpg",
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0003.jpg",
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0004.jpg",
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0005.jpg",
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0006.jpg",
+      "frames/subject_0025/step_004/subject_0025__step_004__37.000_48.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "请根据以下视频帧，分类当前的操作步骤。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "助手在身后协助穿手术衣，使双手伸出袖口"
+      }
+    ],
+    "label": "助手在身后协助穿手术衣，使双手伸出袖口",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0025",
+      "sheet": "Sheet1",
+      "row_index": 3,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_004",
+      "step_text": "助手在身后协助穿手术衣，使双手伸出袖口",
+      "segment_path": "segments/subject_0025__step_004__37.000_48.000__f0afbbf7.mp4",
+      "start_sec": 37,
+      "end_sec": 48,
+      "duration_sec": 11,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0025",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0025"
+      },
+      "original_id": "subject_0025__step_004__37.000_48.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0028__step_009__97.000_101.000__step_classification",
+    "task": "step_classification",
+    "images": [
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0000.jpg",
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0001.jpg",
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0002.jpg",
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0003.jpg",
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0004.jpg",
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0005.jpg",
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0006.jpg",
+      "frames/subject_0028/step_009/subject_0028__step_009__97.000_101.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个步骤？请选择正确的步骤类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手"
+      }
+    ],
+    "label": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+    "label_idx": 7,
+    "meta": {
+      "subject": "subject_0028",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0028__step_009__97.000_101.000__47937f96.mp4",
+      "start_sec": 97,
+      "end_sec": 101,
+      "duration_sec": 4,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0028",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0028"
+      },
+      "original_id": "subject_0028__step_009__97.000_101.000",
+      "task_type": "step_classification"
+    }
+  },
+  {
+    "id": "subject_0024__step_009__115.000_122.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0000.jpg",
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0001.jpg",
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0002.jpg",
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0003.jpg",
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0004.jpg",
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0005.jpg",
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0006.jpg",
+      "frames/subject_0024/step_009/subject_0024__step_009__115.000_122.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "以下视频帧展示了哪个阶段？请选择正确的阶段类别。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "穿手术衣"
+      }
+    ],
+    "label": "穿手术衣",
+    "label_idx": 1,
+    "meta": {
+      "subject": "subject_0024",
+      "sheet": "Sheet1",
+      "row_index": 8,
+      "stage_id": "stage_01",
+      "stage_text": "穿手术衣",
+      "step_id": "step_009",
+      "step_text": "戴好无菌手套后，自行解开打结的腰带，将一侧腰带递给助手",
+      "segment_path": "segments/subject_0024__step_009__115.000_122.000__47937f96.mp4",
+      "start_sec": 115,
+      "end_sec": 122,
+      "duration_sec": 7,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0024",
+        "best_score": 0.6461538461538461,
+        "best_stem": "0214-穿脱手术衣手套-subject_0024"
+      },
+      "original_id": "subject_0024__step_009__115.000_122.000",
+      "task_type": "stage_classification"
+    }
+  },
+  {
+    "id": "subject_0035__step_005__67.000_76.000__stage_classification",
+    "task": "stage_classification",
+    "images": [
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0000.jpg",
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0001.jpg",
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0002.jpg",
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0003.jpg",
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0004.jpg",
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0005.jpg",
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0006.jpg",
+      "frames/subject_0035/step_005/subject_0035__step_005__67.000_76.000/frame_0007.jpg"
+    ],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "分析视频帧，确定当前手术进行到哪个阶段。\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n\n<image>\n"
+      },
+      {
+        "from": "gpt",
+        "value": "戴无菌手套"
+      }
+    ],
+    "label": "戴无菌手套",
+    "label_idx": 0,
+    "meta": {
+      "subject": "subject_0035",
+      "sheet": "Sheet1",
+      "row_index": 4,
+      "stage_id": "stage_02",
+      "stage_text": "戴无菌手套",
+      "step_id": "step_005",
+      "step_text": "左手自手套袋内捏住手套翻折部的内侧面，取出手套;确认手套方向后，右手插入右手手套内",
+      "segment_path": "segments/subject_0035__step_005__67.000_76.000__a36b4dda.mp4",
+      "start_sec": 67,
+      "end_sec": 76,
+      "duration_sec": 9,
+      "completed": "Y",
+      "video_match_info": {
+        "method": "heuristic_match",
+        "user_norm": "subject_0035",
+        "best_score": 0.6642857142857143,
+        "best_stem": "0214-穿脱手术衣手套-subject_0035"
+      },
+      "original_id": "subject_0035__step_005__67.000_76.000",
+      "task_type": "stage_classification"
+    }
+  }
+]
