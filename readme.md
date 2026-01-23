@@ -58,27 +58,6 @@ conda activate surgskill
 pip install -r requirements.txt
 ```
 
-## 📁 Project Structure
-
-```
-SurgSkill-42/
-├── data/
-│   ├── train/
-│   ├── test/
-│   └── annotations/
-├── models/
-│   ├── internvl/
-│   ├── siglip_qwen/
-│   └── timesformer/
-├── configs/
-├── scripts/
-│   ├── train.py
-│   ├── evaluate.py
-│   └── inference.py
-├── utils/
-├── requirements.txt
-└── README.md
-```
 
 ## 🏋️ Training
 
