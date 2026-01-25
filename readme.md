@@ -235,14 +235,14 @@ python scripts/evaluate.py \
 
 ## 📖 Citation
 
-If you find this work useful, please cite our paper:
+Ou paper is submitted to EMBC 2026:
 
 ```bibtex
 @inproceedings{arshad2025surgskill,
   title={Do Larger Vision-Language Models Help Under Domain Shift? A Study on Surgical Procedural Understanding},
   author={Arshad, Muhammad Ali and Li, Wei and Yan, Yan and Liu, Yu-Shi and Wang, Lei},
   booktitle={IEEE Engineering in Medicine and Biology Conference (EMBC)},
-  year={2025}
+  year={2026}
 }
 ```
 
