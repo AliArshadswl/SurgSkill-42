@@ -235,7 +235,7 @@ python scripts/evaluate.py \
 
 ## 📖 Citation
 
-Ou paper is submitted to EMBC 2026:
+Our paper is accepted to EMBC 2026:
 
 ```bibtex
 @inproceedings{arshad2025surgskill,
