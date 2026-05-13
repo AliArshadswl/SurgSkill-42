@@ -1,0 +1,7 @@
+LoRA goes on the language model (["wqkv", "wo"]), not the vision encoder
+4-bit QLoRA via bitsandbytes, not regular LoRA
+Pooling at the last IMG_CTX token position (img_ctx_pos = 1 + n_ctx - 1), not mean pooling
+Pixel values in float16, not bfloat16
+MultiTaskHead — step + stage predicted simultaneously from hidden_size=4096
+Input construction: [BOS] + [IMG_CTX] × (8×256) + prompt_ids + [EOS]
+img_context_token_id = 151671 must be set on the model
